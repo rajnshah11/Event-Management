@@ -1,0 +1,68 @@
+/* EventItem.css */
+.events-list-item {
+  background: #fff; /* White background for each event item */
+  border: 1px solid #ddd; /* Light grey border */
+  border-radius: 8px; /* Rounded corners */
+  padding: 20px; /* Padding for spacing */
+  margin: 10px 0; /* Margin between items */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+  transition: transform 0.2s; /* Smooth transition for hover effect */
+}
+
+.events-list-item:hover {
+  transform: scale(1.02); /* Slightly enlarge the item on hover */
+}
+
+.event-item-content {
+  margin-bottom: 10px; /* Spacing below the content */
+}
+
+.event-item-title {
+  font-size: 1.5rem; /* Larger font size for title */
+  color: #333; /* Dark text color */
+  margin: 0; /* Remove default margin */
+}
+
+.event-item-price {
+  font-size: 1.2rem; /* Font size for price */
+  color: #4CAF50; /* Green color for price */
+}
+
+.event-item-date {
+  font-size: 1rem; /* Font size for date */
+  color: #777; /* Grey color for date */
+}
+
+.event-item-action {
+  display: flex; /* Flexbox for alignment */
+  justify-content: space-between; /* Space between elements */
+  align-items: center; /* Center align items */
+}
+
+.btn {
+  background: linear-gradient(135deg, #f8ffae, #43c6ac);
+  color: black; /* White text color */
+  border: none; /* No border */
+  padding: 10px 15px; /* Padding for button */
+  border-radius: 5px; /* Rounded corners for button */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth transition for hover */
+}
+
+.btn:hover {
+  background: linear-gradient(135deg, #ecefc8, rgb(121, 193, 132));; /* Darker blue on hover */
+}
+
+.event-owner {
+  font-style: italic; /* Italic style for owner text */
+  color: #555; /* Darker grey for owner text */
+}
+
+
+.no-events-message {
+  color: #666; /* Soft gray color for the text */
+  font-size: 1.2em; /* Slightly larger font size */
+  text-align: center; /* Center the message */
+  margin: 20px 0; /* Add some margin for spacing */
+  font-weight: bold; /* Make the text bold */
+}

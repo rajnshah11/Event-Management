@@ -1,0 +1,33 @@
+.event-list-container {
+  max-width: 800px; /* Limit the width of the list */
+  margin: 20px auto; /* Center the container */
+  padding: 20px; /* Padding around the container */
+}
+
+.event-list-title {
+  text-align: center; /* Center the title */
+  color: #333; /* Dark color for title */
+  font-size: 2rem; /* Larger font size for the title */
+  margin-bottom: 20px; /* Spacing below the title */
+}
+
+.events-list {
+  list-style-type: none; /* Remove default list styling */
+  padding: 0; /* Remove padding from the list */
+  margin: 0; /* Remove margin from the list */
+}
+
+.events-list-item {
+  margin-bottom: 15px; /* Space between event items */
+}
+
+/* Optionally, add hover effect for the entire event list */
+.events-list-item:hover {
+  background-color: #f1f1f1; /* Slightly darker background on hover */
+  transition: background-color 0.3s; /* Smooth transition for hover */
+}
+
+.no-events {
+  text-align: center; /* Center the title */
+  color: #333; /* Dark color for title */
+}

@@ -1,0 +1,133 @@
+/* General Page Styling */
+.auth-container {
+  font-family: 'Arial', sans-serif; 
+  background: linear-gradient(135deg, #f8ffae, #43c6ac); /* Softer gradient */
+  min-height: 100vh; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px; /* Add padding for mobile responsiveness */
+}
+
+/* Card Styling */
+.auth-card {
+  max-width: 400px;
+  width: 100%;
+  margin: 10px;
+  padding:40px 35px !important ;
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1); /* Softer shadow */
+  background: white; 
+  transition: transform 0.3s ease;
+  text-align: center; /* Center content */
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Form Input Fields */
+input,
+select {
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin: 12px 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  font-size: 16px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+input:focus,
+select:focus {
+  border-color: #43c6ac;
+  outline: none;
+  box-shadow: 0 2px 8px rgba(67, 198, 172, 0.2); /* Soft focus shadow */
+}
+
+/* Button Styling */
+button {
+  width: 100%;
+  padding: 15px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #43c6ac;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+  background-color: #3ab0a0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Switch Button (Login/Sign up toggle) */
+button.switch-button {
+  margin-top: 15px;
+  background: none;
+  border: none;
+  color: #43c6ac;
+  font-size: 16px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+button.switch-button:hover {
+  color: #3ab0a0;
+}
+
+/* Error Message */
+.error-message {
+  color: #e74c3c;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+/* Form Control Styling */
+.form-control label {
+  font-size: 14px;
+  color: #666;
+  text-align: left;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-control {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 600px) {
+  .auth-card {
+    padding: 20px 30px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  input,
+  select {
+    font-size: 14px;
+    padding: 12px;
+  }
+
+  button {
+    font-size: 16px;
+  }
+
+  button.switch-button {
+    font-size: 14px;
+  }
+}

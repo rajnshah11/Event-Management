@@ -1,0 +1,51 @@
+.bookings-control {
+  display: flex; /* Use flexbox for alignment */
+  justify-content: center; /* Center buttons horizontally */
+  margin: 20px 0; /* Margin above and below the buttons */
+}
+
+.control-button {
+  font-size: 18px; /* Larger base font size for better readability */
+  border: none; /* Remove default border */
+  margin: 0; /* Remove margin to connect buttons */
+  cursor: pointer; /* Change cursor to pointer */
+  background: linear-gradient(135deg, #f8ffae, #43c6ac); /* Gradient background */
+  color: white; /* White text color */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  transition: transform 0.2s, background 0.3s; /* Smooth transitions for hover effects */
+  padding: 10px 20px; /* Padding for the button */
+  max-width: 150px; /* Set a maximum width for the buttons */
+  width: 100%; /* Allow buttons to be responsive within the max-width */
+}
+
+/* Active button styling */
+.control-button.active {
+  background: linear-gradient(135deg, #e2f04b, #19c8a5); /* Darker gradient for active state */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Deeper shadow for active button */
+}
+
+/* Hover effects */
+.control-button:hover {
+  transform: translateY(-2px); /* Slight lift effect on hover */
+  background: linear-gradient(135deg, #e2f04b, #19c8a5); /* Change gradient on hover */
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+  .control-button {
+    padding: 8px 16px; /* Slightly reduce padding */
+    font-size: 16px; /* Adjust font size */
+  }
+}
+
+@media (max-width: 480px) {
+  .bookings-control {
+    flex-direction: column; /* Stack buttons vertically on small screens */
+    align-items: center; /* Center align buttons in column layout */
+  }
+  .control-button {
+    margin: 10px 0; /* Add vertical spacing */
+    width: 100%; /* Full width for buttons on small screens */
+    max-width: none; /* Remove max-width on smaller screens */
+  }
+}

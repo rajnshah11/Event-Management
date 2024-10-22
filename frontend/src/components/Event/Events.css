@@ -1,0 +1,47 @@
+.events-control {
+  text-align: center;
+  border: 1px solid black;
+  padding: 1rem;
+  margin: 2rem auto;
+  width: 30rem;
+  max-width: 80%;
+}
+
+.event-item-title {
+  font-size: 1.5rem; /* Larger font size for title */
+  color: #333; /* Dark text color */
+  margin: 0; /* Remove default margin */
+}
+
+.event-item-price {
+  font-size: 1.2rem; /* Font size for price */
+  color: #4CAF50; /* Green color for price */
+}
+
+.event-item-date {
+  font-size: 1rem; /* Font size for date */
+  color: #777; /* Grey color for date */
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+#description {
+  width: 100%;
+  max-width: 500px;
+}
+
+.btn{
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+}
+
+.event-item-description{
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333; /* Change to your preferred color */
+  white-space: pre-line; /* To preserve new lines in description */
+}

@@ -1,0 +1,20 @@
+.bookings-chart-container {
+    max-width: 600px; /* Limit the width of the chart container */
+    margin: auto; /* Center the chart */
+    padding: 20px; /* Padding around the chart */
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .bookings-chart-title {
+    margin-bottom: 15px; /* Margin below the title */
+    color: #333;
+    font-size: 20px; /* Title font size */
+  }
+  
+  .chart-wrapper {
+    width: 100%; /* Make the wrapper full width */
+    height: 400px; /* Fixed height for the chart */
+  }
+  

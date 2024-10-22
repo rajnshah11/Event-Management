@@ -1,0 +1,19 @@
+/* Backdrop.css */
+.backdrop {
+  position: fixed; /* Fixed position to cover the entire screen */
+  top: 0; /* Align to the top */
+  left: 0; /* Align to the left */
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  background: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+  backdrop-filter: blur(5px); /* Add a blur effect behind the backdrop */
+  transition: opacity 0.3s ease; /* Smooth transition for opacity */
+  opacity: 0; /* Initial opacity */
+  visibility: hidden; /* Initially hidden */
+}
+
+/* Optional: Visibility when active */
+.backdrop.active {
+  opacity: 1; /* Fully visible */
+  visibility: visible; /* Make it visible */
+}
