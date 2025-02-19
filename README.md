@@ -1,7 +1,4 @@
 # Event Management System
-Here’s a basic `README.md` file for your Event Management System using React, Node.js, GraphQL, and MongoDB:
-
-# Event Management System
 
 ## Overview
 
